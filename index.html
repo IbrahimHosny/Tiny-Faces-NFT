@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/media.css">
+    <title>TinyFacesNft</title>
+</head>
+
+<body dir="ltr">
+    <nav class="d-flex justify-content-between container align-items-center">
+        <div class="logo">
+            <h3>TinyFaces<span>NFT</span></h3>
+        </div>
+        <div id='burger-menu'  class="burger-menu">
+            <div class="bar-one"></div>
+            <div class="bar-two"></div>
+            <div class="bar-three"></div>
+        </div>
+        <ul id="nav-menu">
+            <li class="menu-ele"><a href="#home">Home</a></li>
+            <li class="menu-ele"><a href="#features">Features</a></li>
+            <li class="menu-ele"><a href="#about">About</a></li>
+            <li class="menu-ele"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="login d-flex justify-content-center align-items-center">
+            <button type="button" class="login-button">Login</button>
+            <button type="button" class="signup-button">Sign up</button>
+        </div>
+    </nav>
+    <main class="container">
+        <section id="home" class="d-flex justify-content-between flex-row">
+            <div class="home-part1">
+                <h1 class="head-1">
+                    <span>Find</span> Your Favourite <span>Character</span>
+                </h1>
+                <p class="paragraph">
+                    Characterised by soft lighting, vintage colour schemes and quirky
+                    costumes, these generative 3D TinyFaces are the addition to your NFT
+                    collection you’ve been waiting for.
+                </p>
+                <div class="buttons">
+                    <button type="button" class="main-button">Join Discord</button>
+                    <button type="button" class="second-button">
+                        <span>Demo video</span>
+                        <div class="cycle"></div>
+                    </button>
+                </div>
+            </div>
+            <div class="home-part2">
+                <div class="status-1 d-flex align-items-center">
+                    <span>202k</span>
+                    <p>
+                        Unique <br />
+                        TinyFaces
+                    </p>
+                </div>
+                <img src="./images/98 1.svg" alt="nft-pic" />
+                <div class="status-2 d-flex flex-column align-items-center">
+                    <p>Secure The Most Rare</p>
+                    <div>
+                        <span> 3,000+ </span>
+                        <p>New Tiny Faces Arrives</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="head">
+                <h2 class="head-2">
+                    Thousand Of <span> Features </span> <br />
+                    Awaiting for you
+                </h2>
+                <p class="paragraph">
+                    Characterised by soft lighting, vintage colour schemes and quirky
+                    costumes, these generative 3D TinyFaces are the addition to your NFT
+                    collection you’ve been waiting for.
+                </p>
+            </div>
+            <div class="subject-1">
+                <div class="card-1">
+                    <div class="images">
+                        <img src="./images/img-features-1.svg" alt="nft image" />
+                    </div>
+                    <h3 class="head-3">
+                        Unique <br />
+                        Tiny Faces
+                    </h3>
+                    <p class="paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet.
+                    </p>
+                    <button type="button">
+                        Find out more <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="card-2">
+                    <div class="images">
+                        <img src="./images/img-features-2.svg" alt="nft image" />
+                    </div>
+                    <h3 class="head-3">
+                        Huge <br />
+                        Special Accessorise
+                    </h3>
+                    <p class="paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet.
+                    </p>
+                    <button type="button">
+                        Find out more <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="card-3">
+                    <div class="images">
+                        <img src="./images/img-features-3.svg" alt="nft image" />
+                    </div>
+                    <h3 class="head-3">
+                        500+ <br />
+                        Combinations
+                    </h3>
+                    <p class="paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet.
+                    </p>
+                    <button type="button">
+                        Find out more <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="subject-2">
+                <div class="heading">
+                    <h2 class="head-2">
+                        Recently Added
+                    </h2>
+                    <p class="paragraph">
+                        Characterised by soft lighting, vintage colour schemes and quirky costumes, these generative 3D
+                        TinyFaces are the addition to your NFT collection you’ve been waiting for.
+                    </p>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img id="orange" src="./images/92 1.svg" alt="new-nft-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img id="blue" src="./images/97 1.svg" alt="new-nft-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img id="baby-blue" src="./images/98 1.svg" alt="new-nft-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img id="green" src="./images/97 4.svg" alt="new-nft-img">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        &#8594;
+                    </div>
+                    <div class="swiper-button-prev">
+                        &#8592;
+                    </div>
+                </div>
+            </div>
+            <div class="subject-3">
+                <div class="part-1">
+                    <div class="text">
+                        <h2 class="head-2">
+                            <span>5000+</span> Unique TinyFaces
+                        </h2>
+                        <p class="paragraph">
+                            Each character is entirely unique and is generated by combining hundreds of attributes such
+                            as colour palettes, skin tones, facial traits, outfits and accessories. With nearly endless
+                            combinations, all characters are guaranteed to be one of a kind.
+                        </p>
+                    </div>
+                    <img src="./images/64 1.svg" alt="nft-img">
+                </div>
+                <div class="part-2">
+                    <div class="text">
+                        <h2 class="head-2">
+                            <span>Secure</span> The Most Rare
+                        </h2>
+                        <p class="paragraph">
+                            Even though no two Tinyfaces will ever be the same, some variations are rarer than others.
+                            Watch out for special accessories and metal skin tones - the rarer the attributes, the rarer
+                            your character will be.
+                        </p>
+                    </div>
+                    <img src="./images/47 1.svg" alt="nft-img">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="heading">
+                <h2 class="head-2">
+                    <span>About</span> Us
+                </h2>
+                <p class="paragraph">
+                    Launched in 2021, TinyFaces is an online design and publishing tool with a mission to empower
+                    everyone in the world to design anything and publish anywhere.
+                </p>
+            </div>
+            <div class="status">
+                <div class="text">
+                    <p class="paragraph">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet.Amet minim mollit non
+                        deserunt ullamco est sit aliqua dolor do amet.Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet.Amet
+                        minim mollit non deserunt ullamco est sit aliqua dolor do amet.Amet minim mollit non deserunt
+                        ullamco est sit aliqua dolor do amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                        do amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do ameAmet minim mollit non
+                        deserunt ullamco est sit aliqua dolor do amet.t.
+                    </p>
+                    <div class="buttons">
+                        <button type="button" class="main-button">Learn More</button>
+                        <button type="button" class="second-button">Watch Video <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-1">
+                        <h3 class="head-3">1000K</h3>
+                        <span>Design<br>Created</span>
+                    </div>
+                    <div class="card-2">
+                        <h3 class="head-3">250+</h3>
+                        <span>nternational <br> Country</span>
+                    </div>
+                    <div class="card-3">
+                        <h3 class="head-3">500K</h3>
+                        <span>Happy<br>Users</span>
+                    </div>
+                    <div class="card-4">
+                        <h3 class="head-3">2817</h3>
+                        <span>All Over<br>Language</span>
+                    </div>
+                </div>
+            </div>
+            <div class="our-users">
+                <div class="heading">
+                    <h2 class="head-2">
+                        What Our <span>Users Say</span>
+                    </h2>
+                    <p>
+                        Community development is often linked with community work or community planning, and may involve
+                        stakeholders, foundations,
+                    </p>
+                </div>
+                <div class="feedBack">
+                    <div class="douple-quote">
+                        <img src="./images/douple-quote.svg" alt="douple-quote">
+                    </div>
+                    <div class="swiper-container s1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="user-comment">
+                                        <p class="paragraph">
+                                            Yet preference connection unpleasant yet melancholy but end appearance. And
+                                            excellence partiality estimating terminated day everything.
+                                        </p>
+                                    </div>
+                                    <div class="name">
+                                        <span>
+                                            Sam
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="user-comment">
+                                        <p class="paragraph">
+                                            Yet preference connection unpleasant yet melancholy but end appearance. And
+                                            excellence partiality estimating terminated day everything.
+                                        </p>
+                                    </div>
+                                    <div class="name">
+                                        <span>
+                                            Alex
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cards">
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="user-comment">
+                                        <p class="paragraph">
+                                            Yet preference connection unpleasant yet melancholy but end appearance. And
+                                            excellence partiality estimating terminated day everything.
+                                        </p>
+                                    </div>
+                                    <div class="name">
+                                        <span>
+                                            Ramy
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            &#8594;
+                        </div>
+                        <div class="swiper-button-prev">
+                            &#8592;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="image">
+                <img src="./images/97 4.svg" alt="nft-img">
+            </div>
+            <div class="text">
+                <h2 class="head-2">
+                    Join The <span> Community </span>
+                </h2>
+                <p class="paragraph">
+                    We’re still hiding in the metaverse. While you wait for the collection to drop, join our Discord
+                    channel or follow us on Twitter keep up to date with our latest work and announcements.
+                </p>
+                <div class="buttons">
+                    <button type="button" class="main-button"> Join Discord </button>
+                    <button type="button" class="second-button"> Follow On Twitter </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <div class="main-footer">
+            <div class="tinyFaces">
+                <h3 class="head-3"> TinyFaces.NFT</h3>
+                <p>
+                    Nor again is there anyone who loves or pursues or desires to obtain pain of itself.
+                </p>
+            </div>
+            <div class="privacy">
+                <h3 class="head-3">
+                    Privacy
+                </h3>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Policy</li>
+                    <li>Payment</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <h3 class="head-3">
+                    Contact Us
+                </h3>
+                <div class="contact">
+                    +91 88188 75275
+                    <br>
+                    sehjadpatel8599@gmail.com
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li class="instgram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li class="linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                        <li class="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copy-right">
+            <div class="cr-tinyFaces">
+                &#169; Copyrights <span>TinyFaces.NFT</span> All rights reserved.
+            </div>
+            <div class="made-with-love">
+                <div>
+                    Made with <span>&#10084;</span> By Ibrahim Hosny
+                </div>
+                <ul>
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/ibrahim-hosny-867b17213/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="facebook">
+                        <a href="https://github.com/IbrahimHosny" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1700dacc06.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
