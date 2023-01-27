@@ -142,13 +142,13 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--p-light-hover);
+    color: var(--n-grey);
     font-size: 18px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: var(--p-light-hover);
+    color: var();
     transition: 0.2s;
 }
 
