@@ -142,7 +142,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--n-grey);
+    color: var(--p-light-hover);
     font-size: 18px;
     text-decoration: none;
 }
