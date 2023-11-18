@@ -65,10 +65,18 @@ let menu = document.getElementById('nav-menu');
 // let disBlock = '';
 let isTrue = false;
 
-
+// console.log(burgerMenu.children[0].style);
 const menuDisplay = () => {
-    isTrue = !isTrue
+    isTrue = !isTrue;
     menu.style = `display:${isTrue&&'block'}`
+console.log(burgerMenu.children[0].style);
+
+    {isTrue ? `${burgerMenu.children[0].classList.add('bar-one')}` : `${burgerMenu.children[0].classList.remove('bar-one')}` }
+
+    {isTrue ? `${burgerMenu.children[1].style.width = '0px'}` : `${burgerMenu.children[1].style.width = '50px'}` }
+
+    {isTrue ? `${burgerMenu.children[2].classList.add('bar-three')}` : `${burgerMenu.children[2].classList.remove('bar-three')}` }
+
     console.log(isTrue , menu.style.display);
 }
 let windowWidth = window.innerWidth;

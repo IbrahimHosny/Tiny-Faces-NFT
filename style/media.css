@@ -131,7 +131,15 @@ nav .login {
     nav .burger-menu div {
         transition-duration: 0.5s;
     }
-    nav .burger-menu:hover > .bar-one {
+    .bar-one {
+        rotate: 45deg;
+        top: 10px;
+    }
+    .bar-three {
+        rotate: -45deg;
+        bottom: 10px;
+    } 
+    /* nav .burger-menu:hover > .bar-one {
         rotate: 45deg;
         top: 10px;
     }
@@ -141,7 +149,7 @@ nav .login {
     nav .burger-menu:hover > .bar-three {
         rotate: -45deg;
         bottom: 10px;
-    }
+    } */
     nav ul {
         height: 100vh; 
         display: none;
